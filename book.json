@@ -1,0 +1,118 @@
+{
+    "title": "ManKeung 个人学习笔记",
+    "description": "好记性不如烂笔头，您每天笔记的样子好美哦。一点成长也是成长，难道不是吗？",
+    "author": "ManKeung",
+    "output.name": "site",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "root": ".",
+    "structure": {
+        "readme": "introduction.md"
+    },
+    "plugins": [
+        "-lunr",
+        "-search",
+        "search-plus",
+        "github-buttons",
+        "emphasize",
+        "splitter",
+        "-sharing",
+        "sharing-plus",
+        "tbfed-pagefooter",
+        "expandable-chapters-small",
+        "donate",
+        "anchor-navigation-ex",
+        "edit-link",
+        "auto-scroll-table",
+        "-highlight",
+        "code",
+        "alerts",
+        "popup",
+        "prism"
+    ],
+    "pluginsConfig": {
+        "prism": {
+            "css": [
+                "prism-themes/themes/prism-xonokai.css"
+            ]
+        },
+        "github-buttons": {
+            "buttons": [{
+                "user": "mankeung",
+                "repo": "learning_record",
+                "type": "star",
+                "size": "smal"
+            }, {
+                "user": "mankeung",
+                "repo": "learning_record",
+                "type": "follow",
+                "size": "small",
+                "width": "150"
+            }]
+        },
+        "sharing": {
+            "douban": false,
+            "facebook": false,
+            "google": true,
+            "hatenaBookmark": false,
+            "instapaper": false,
+            "line": true,
+            "linkedin": true,
+            "messenger": false,
+            "pocket": false,
+            "qq": false,
+            "qzone": true,
+            "stumbleupon": false,
+            "twitter": false,
+            "viber": false,
+            "vk": false,
+            "weibo": true,
+            "whatsapp": false,
+            "all": [
+                "facebook", "google", "twitter",
+                "weibo", "instapaper", "linkedin",
+                "pocket", "stumbleupon"
+            ]
+        },
+        "tbfed-pagefooter": {
+            "copyright": "Copyright &copy mankeung.com 2019",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "donate": {
+            "wechat": "url",
+            "alipay": "url",
+            "title": "",
+            "button": "赏",
+            "alipayText": "支付宝打赏",
+            "wechatText": "微信打赏"
+        },
+        "anchor-navigation-ex": {
+            "anchor-navigation-ex": {
+                "showLevel": true,
+                "associatedWithSummary": true,
+                "printLog": false,
+                "multipleH1": true,
+                "mode": "float",
+                "showGoTop": true,
+                "float": {
+                    "floatIcon": "fa fa-navicon",
+                    "showLevelIcon": false,
+                    "level1Icon": "fa fa-hand-o-right",
+                    "level2Icon": "fa fa-hand-o-right",
+                    "level3Icon": "fa fa-hand-o-right"
+                },
+                "pageTop": {
+                    "showLevelIcon": false,
+                    "level1Icon": "fa fa-hand-o-right",
+                    "level2Icon": "fa fa-hand-o-right",
+                    "level3Icon": "fa fa-hand-o-right"
+                }
+            }
+        },
+        "edit-link": {
+            "base": "https://github.com/mankeung/learning_record/edit/master",
+            "label": "编辑此页面"
+        }
+    }
+}
