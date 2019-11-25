@@ -113,6 +113,9 @@
         "edit-link": {
             "base": "https://github.com/mankeung/learning_record/edit/master",
             "label": "编辑此页面"
+        },
+        "theme-default": {
+            "showLevel": true
         }
     }
 }
