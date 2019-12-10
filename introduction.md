@@ -5,19 +5,32 @@
 ## 本章节文件目录
 
 ```json
-env_tools // 开发环境工具文件夹
-    ├── git // git常用命令
+env_tools
+    ├── git
     │   └── README.md
-    ├── md // markdown常用语法
+    ├── linux
+    │   ├── base.md
+    │   ├── file.md
+    │   ├── README.md
+    │   ├── service.md
+    │   ├── system.md
+    │   ├── tar.md
+    │   ├── users.md
+    │   └── vi.md
+    ├── md
     │   ├── images
     │   │   └── h1.png
     │   └── README.md
-    └── node // node基本工具包
-        ├── install.md // 安装
-        ├── package_manage.md // 包管理工具
-        ├── README.md // 说明文档
-        ├── tools.md // 工具包
-        └── v_manage.md // 版本管理
+    ├── node
+    │   ├── install.md
+    │   ├── package_manage.md
+    │   ├── README.md
+    │   ├── tools.md
+    │   └── v_manage.md
+    └── ubuntu
+        ├── conf.md
+        └── README.md
+
 ```
 ___
 > 共同学习，共同进步
