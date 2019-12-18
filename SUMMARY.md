@@ -115,3 +115,9 @@
     * [在后端的使用](app/db/mongodb/use.md)
         * [Node中的使用](app/db/mongodb/node.md)
         * [mongoose示例](app/db/mongodb/mongoose.md)
+
+* [Redis](app/db/redis/README.md)
+    * [安装](app/db/redis/install.md)
+    * [基本使用](app/db/redis/shell.md)
+    * [在后端的使用](app/db/redis/use.md)
+        * [Node中的使用](app/db/redis/node.md)
