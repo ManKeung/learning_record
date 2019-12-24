@@ -127,3 +127,18 @@
     * [基本使用](app/db/mysql/shell.md)
     * [在后端的使用](app/db/mysql/use.md)
         * [Node中的使用](app/db/mysql/node.md)
+
+## python
+
+* [前言](app/python/README.md)
+
+* [基础](app/python/base/README.md)
+    * [初认识](app/python/base/base.md)
+    * [流程控制](app/python/base/flow.md)
+    * [函数](app/python/base/fn.md)
+    * [高级数据类型](app/python/base/data.md)
+    * [语法进阶](app/python/base/grammar.md)
+    * [面向对象](app/python/base/class.md)
+    * [异常](app/python/base/err.md)
+    * [模块](app/python/base/module.md)
+    * [文件](app/python/base/file.md)
