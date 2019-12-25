@@ -124,5 +124,25 @@ print(os.path.abspath(os.curdir))  # 获取当前工作目录路径
 print(os.listdir())
 ```
 
+* with
+
+```python
+# 自己实现
+from contextlib import contextmanager
+
+@contextmanager
+def my_open(path, mode):
+    f = open(path, mode)
+    yield f
+    f.close()
+
+with my_open('out.txt', 'w') as f:
+    f.write('hello , the simplest context manager')
+
+# with open打开文件
+with open('out.txt', 'w') as f:
+    f.write('hello , the simplest context manager')
+```
+
 ___
 > 共同学习，共同进步

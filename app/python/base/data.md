@@ -374,5 +374,77 @@ print(num_str[2:-1])
 print(num_str[-2:])
 print(num_str[-1::-1])
 ```
+
+## 推导式
+
+### 列表推导式
+
+* 示例1
+
+```python
+num_list = [i for i in range(30)]
+print(num_list)
+```
+
+* 示例2
+
+```python
+num_list = [i for i in range(30) if i % 3 is 0]
+print(num_list)
+```
+
+* 示例3
+
+```python
+def squared(x):
+    return x*x
+
+
+num_list = [squared(i) for i in range(30) if i % 3 is 0]
+print(num_list)
+```
+
+* 示例4
+
+使用()生成generator
+
+```python
+num_list = (i for i in range(30) if i % 3 is 0)
+print(type(num_list))
+
+for i in num_list:
+    print(i)
+```
+
+### 字典推导式
+
+* 示例1
+
+```python
+mcase = {'a': 10, 'b': 34, 'A': 7, 'Z': 3}
+mcase_frequency = {
+    k.lower(): mcase.get(k.lower(), 0) + mcase.get(k.upper(), 0)
+    for k in mcase.keys()
+    if k.lower() in ['a', 'b']
+}
+print(mcase_frequency)
+```
+
+* 示例2
+
+```python
+mcase = {'a': 10, 'b': 34}
+mcase_frequency = {v: k for k, v in mcase.items()}
+print(mcase_frequency)
+```
+
+### 集合推导式
+
+* 示例1
+
+```python
+squared = {x**2 for x in [1, 1, 2]}
+print(squared)
+```
 ___
 > 共同学习，共同进步
